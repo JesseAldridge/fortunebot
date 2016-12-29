@@ -5,7 +5,7 @@ import requests
 import secrets
 
 while True:
-    channel = '#testing'
+    channel = '#coffee-talk'
     proc = subprocess.Popen('fortune', stdout=subprocess.PIPE)
     slack_str = proc.communicate()[0]
 
